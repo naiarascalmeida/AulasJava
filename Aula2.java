@@ -8,4 +8,4 @@ public class Aula2{
         leitorTxt.close();
 
     }
-}
+}                       
