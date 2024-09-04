@@ -23,6 +23,7 @@ public class Aula3 {
         System.out.println("Seu nome é:\n");
         String nome5 = leitorTxt.nextLine();
         System.out.println("Colaborador 05\n" + nome5);
+        leitorTxt.close();
 
     }
 }

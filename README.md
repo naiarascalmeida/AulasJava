@@ -1,2 +1,4 @@
-# AulasJava
-Curso de Java - Senac 
+# Repositorio das aulas
+
+Esse repositorio serve para nossas aulas
+
