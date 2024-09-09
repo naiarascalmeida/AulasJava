@@ -21,7 +21,25 @@ public class Aula4C {
         resultado = numeroNaoQuebrado * numeroQuebrado;
         System.out.printf("%2f\n" ,resultado);
 
-        
+        // Char*//
+letra ='A';
+texto = "ABC - ABCdario";
+
+System.out.println(texto.charAt(4));
+System.out.println(texto+texto+texto);
+teste = letra == 'A';
+System.out.println(teste);
+teste = resultado > 1;
+
+System.out.println(teste);
+teste = resultado < 10;
+
+System.out.println(teste);
+teste = resultado >= 5;
+
+System.out.println(teste);
+
     }
-    
 }
+
+
