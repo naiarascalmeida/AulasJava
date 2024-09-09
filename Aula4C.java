@@ -10,7 +10,18 @@ public class Aula4C {
         //Calculos
         //Soma
 
-        Var 
+        var resultado = numeroNaoQuebrado + numeroQuebrado;
+        System.out.printf("%2f\n" ,resultado);
+
+        //Subtração
+        resultado = numeroNaoQuebrado - numeroQuebrado;
+        System.out.printf("%2f\n" ,resultado);
+
+        // Multiplicação 
+        resultado = numeroNaoQuebrado * numeroQuebrado;
+        System.out.printf("%2f\n" ,resultado);
+
+        
     }
     
 }
