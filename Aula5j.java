@@ -9,7 +9,7 @@ public class Aula5j {
 
         // Obtendo valores com o usuario
         System.out.println("Digite um numero");
-        int numero = leitura.nextInt(), pontuacao=30;
+        int numero = leitura.nextInt(), pontuacao = 30;
 
         // Teste de pontuação 
         if (numero == sorteio) {
