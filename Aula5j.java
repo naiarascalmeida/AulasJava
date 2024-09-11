@@ -5,7 +5,7 @@ public class Aula5j {
     public static void main(String[] args) {
         Random aleatorio = new Random();
         Scanner leitura = new Scanner(System.in);
-        final int sorteio = aleatorio.nextInt(1,6);
+        final int sorteio = aleatorio.nextInt(1,3);
 
         // Obtendo valores com o usuario
         System.out.println("Digite um numero");
@@ -19,7 +19,9 @@ public class Aula5j {
         } else {
             pontuacao = pontuacao -10;
             System .out.println("Você perdeu" + 10 + "pontos e está com" + pontuacao + "pontos");
-            leitura.close();
+            System .out.println("Proxima tentativa");
+            System .out.println("Você perdeu" + 10 + "pontos e está com" + pontuacao + "pontos");
+            System .out.println("Ultima tenativa");
             
         }
     }
